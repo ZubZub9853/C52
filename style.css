@@ -1,0 +1,61 @@
+h1 { 
+    color: aquamarine;
+    margin-left:  30px;
+}
+.header *{
+    border: solid;
+
+}
+.header{
+    background-color: pink;
+    justify-content: space-between;
+    display: flex;
+}
+.grid {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+p,h2 {
+    text-align: center;
+}
+body{
+    background-color:  #c8805e;
+    padding-left: 4%; 
+    
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+a:link{
+    color:aliceblue;
+}
+a:visited{
+    color: aliceblue;
+}
+.menu{
+    margin-right: 30px;
+   
+}
+.menu a{
+    margin-left: 30px;
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+    color: beige;
+    font-size: 20px;
+}
+.item:hover img{
+    opacity: 0.5;
+}
